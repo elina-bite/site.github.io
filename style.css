@@ -1,0 +1,96 @@
+/* Общие стили для всего документа */
+body {
+    font-family: 'Montserrat', sans-serif; /* Шрифт на Montserrat */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Стили для заголовков */
+h1 {
+    font-size: 2.5em; /* Увеличенный шрифт для главного заголовка */
+    margin: 0.5em 0;
+}
+
+.welcome {
+    text-align: center; /* По центру */
+    margin: 20px 0; /* Отступ сверху и снизу */
+}
+
+/* Уменьшенный шрифт для второго заголовка */
+h2 {
+    font-size: 2em;
+    margin: 1em 0;
+}
+
+/* Стили для абзацев */
+.content-section {
+    border: 2px solid #007ACC; /* Цвет рамки */
+    border-radius: 10px; /* Закругленные углы */
+    padding: 20px; /* Отступ внутри рамки */
+    background-color: #ffffff; /* Цвет фона рамки */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Тень для добавления объема */
+    margin: 20px; /* Отступ между рамками */
+    max-width: 90%; /* Ширина секции почти на весь экран */
+    margin-left: auto; /* Центрирование по горизонтали */
+    margin-right: auto; /* Центрирование по горизонтали */
+}
+
+/* Стили для основных абзацев */
+p {
+    font-size: 19.5px; /* Увеличенный шрифт для текста, аналогичный 26 кеглю в Word */
+    line-height: 1.6; /* Увеличенная высота строки для лучшей читаемости */
+    margin-bottom: 1em; /* Отступ между абзацами */
+}
+
+/* Стили для шапки */
+header {
+    background-color: #007ACC;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Стили для панели вкладок */
+.tab-menu {
+    background-color: #005b99; /* Цвет фона панелей вкладок */
+    padding: 10px 0; /* Отступ сверху и снизу */
+}
+
+.tab-menu ul {
+    list-style-type: none;
+    text-align: center; /* Центрирование элементов */
+    padding: 0;
+}
+
+.tab-menu ul li {
+    display: inline; /* Выводим элементы во ряд */
+    margin: 0 15px; /* Отступ между вкладками */
+}
+
+.tab-link {
+    text-decoration: none; /* Убираем подчеркивание */
+    font-weight: 500; /* Полужирный текст */
+    font-size: 1.5em; /* Увеличенный размер шрифта */
+    color: white; /* Цвет текста */
+    padding: 10px 15px; /* Внутренние отступы */
+    border: 2px solid transparent; /* Рамка изначально прозрачная */
+    border-radius: 5px; /* Закругленные углы */
+    transition: border-color 0.3s; /* Плавный переход изменения цвета рамки */
+}
+
+.tab-link:hover {
+    border-color: white; /* Цвет рамки при наведении */
+}
+
+/* Стили для подвала */
+footer {
+    text-align: center;
+    background-color: #007ACC;
+    color: white;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
